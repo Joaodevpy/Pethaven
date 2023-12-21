@@ -1,0 +1,71 @@
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Poppins', sans-serif;
+    background-color: #e3462c;
+}   
+
+html{
+    height: 500px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header.rolagem{
+    background-color: rgb(255, 255, 86);
+    padding: 17px 4%;
+}
+
+header.rolagem a{
+    background-color: #e3462c;
+}
+
+header i{
+    front-size: 30px;
+    color: rgb(255, 255, 86);
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.contato{
+    align-content: center;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(255, 255, 86);
+    color: rgb(255, 255, 86);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.banner{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
